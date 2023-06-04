@@ -1,0 +1,33 @@
+<!-- File: about.ejs -->
+<!-- Student: Chun Hin Yim -->
+<!-- StudentID: 301255702 -->
+<!-- Date: 3.6.2023 -->
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-7"><%= title %>  Myself</h1> <br> 
+    <div class="container-fluid">    
+    <div class="row">
+    <div class="col-sm-3"><img src="/img/personalimg.jpeg" alt="personalimg" class="perspnal-img" style: width="278px"; height="362px">
+    </div>
+<div class="col-sm-9">
+    <div class="selfintro" style= "padding-left: 20px;">
+     My name is Chun Hin Yim. I am from Hong Kong and currently a software engineering student in Toronto.
+    <br>Nice to meet you! <br><br> Feel free to download my 
+    <a href="/resume/resume.pdf" download class="resume-link">Resume</a> for more information.
+    </div></div></div></div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+
+

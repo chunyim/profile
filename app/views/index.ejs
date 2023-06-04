@@ -1,0 +1,41 @@
+<!-- File: index.ejs -->
+<!-- Student: Chun Hin Yim -->
+<!-- StudentID: 301255702 -->
+<!-- Date: 3.6.2023 -->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-7">Welcome</h1> <br>
+
+    <% if (submittedFirstName) { %>
+      <div>Hi <%= submittedFirstName %>, This is Chun's page. <br><br> 
+      While browsing this page, you can get to know me more by looking into my projects and what services I could provide!</div>
+    <% } else { %>
+      <div>Hi there! This is Chun's page. <br><br>
+      While browsing this page, you can get to know <a href="/about">me</a> more by looking into my <a href="/projects">projects</a> and what <a href="/services">services</a> I could provide!</div>
+    <% } %>
+    <br>
+    <br>
+    <h3 class="mission-statement">Chun's Mission Statement</h3> <br>
+    <div>
+    To stay healthy<br>
+    To live my life to the fullest by keep learning
+    </div>
+
+    </div>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+
+

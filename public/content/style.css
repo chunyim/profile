@@ -1,0 +1,108 @@
+/*
+ * File: style.css
+ * Student: Chun Hin Yim
+ * StudentID: 301255702
+ * Date: 3.6.2023
+ */
+
+/* Navbar Styles */
+ul.navbar-nav {
+  list-style: none;
+  display: inline;
+  float: right;
+  font-size: 20px;
+}
+
+ul.navbar-nav li {
+  display: inline-block;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  color: inherit;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: grey;
+}
+
+/* Link Styles */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* Navbar Link Styles */
+.nav-link {
+  font-weight: bold;
+}
+
+/* Body Styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+/* Main Content Styles */
+main {
+  flex: 1;
+}
+
+/* Navbar and Footer Styles */
+nav,
+footer {
+  border: 3px solid;
+}
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px;
+}
+
+footer .navbar-text {
+  margin-bottom: 0;
+}
+
+/* Social Icons Styles */
+.social-icons a i {
+  font-size: 24px;
+}
+
+.social-icons a i:hover {
+  color: grey;
+}
+
+/* Navbar Text Styles */
+.navbar-text {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Dark Mode Toggle Styles */
+.dark-mode-toggle {
+  padding-right: 10px;
+  position: relative;
+}
+
+.dark-mode-toggle:hover i {
+  color: grey;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: white;
+  color: black;
+}

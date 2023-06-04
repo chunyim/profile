@@ -1,0 +1,52 @@
+<!-- File: projects.ejs -->
+<!-- Student: Chun Hin Yim -->
+<!-- StudentID: 301255702 -->
+<!-- Date: 3.6.2023 -->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-7">My <%= title %></h1>
+    </div>
+<br>
+<p>Below are some of my school assignments on website development.</p>
+<br>
+    <div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+    <a href="https://simplecatgallery.z13.web.core.windows.net/">
+      <img src="/img/catgallery.png" class="img-responsive" style="width:100%; height:220px;" alt="Image">
+      </a>
+      <p>It is a cat gallery utilizing the cat API, where users can select their favorite photos, and a maximum of 9 cat pictures will be saved.</p>
+
+    </div>
+    <div class="col-sm-4"> 
+      <img src="/img/JSONposter.png" class="img-responsive" style="width:100%; height:220px;" alt="Image">
+      <p>It displays Pixar's movie posters using JSON data. Users have the option to sort the posters based on the year of release or the director.</p>
+    </div>
+    <div class="col-sm-4"> 
+    <a href="https://simpleweb.z13.web.core.windows.net/">
+    <img src="/img/wordguessinggame.png" class="img-responsive" style="width:100%; height:220px;" alt="Image">
+    </a>
+      <p>It is a word guessing game where users can make as many attempts as they want until they win!</p>
+    </div>
+  </div>
+</div>
+<br><br>
+    <p><b> Stay tuned for updates on my first project, which is currently in progress and will be uploaded soon!</b></p>
+<br><br>
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+
+
+
+
+
